@@ -1,52 +1,5 @@
 # UData-test-task
 
-
-### README (українською)
-
-# Проект для збору даних про нерухомість
-
-Цей проект є скриптом для збору даних про нерухомість з вебсайту [kelm-immobilien.de](https://kelm-immobilien.de). Зібрані дані зберігаються у файлі формату JSON.
-
-## Опис
-
-Скрипт виконує наступні дії:
-1. Перебирає сторінки сайту, збираючи посилання на окремі об'єкти нерухомості.
-2. Збирає детальну інформацію про кожен об'єкт, включаючи назву, ціну, опис, місцезнаходження, контактну інформацію та зображення.
-3. Зберігає зібрані дані у файл `data.json`.
-
-## Використання
-
-1. Клонуйте репозиторій на свій комп'ютер.
-2. Встановіть необхідні бібліотеки: `requests`, `beautifulsoup4`, `lxml`.
-3. Запустіть скрипт: `python script.py`.
-
-## Приклад файлу JSON
-
-```json
-{
-    "Property Name": {
-        "url": "https://kelm-immobilien.de/immobilien/property-name",
-        "title": "Property Name",
-        "status": "",
-        "pictures": ["url-to-image1", "url-to-image2"],
-        "rent_price": "1234",
-        "description": "Property description",
-        "phone_number": "123456789",
-        "email": "email@example.com",
-        "country": "DE",
-        "location": "Property location"
-    }
-}
-```
-
-## Запитання та уточнення
-
-Я виконав невелику частину завдання, щоб дізнатися, чи вірно я його виконую. Якщо я роблю щось неправильно, будь ласка, вкажіть, що саме. Якщо ж завдання виконується вірно, будь ласка, скажіть, чого ще не вистачає та які є помилки.
-
----
-
-### README (in English)
-
 # Real Estate Data Collection Project
 
 This project is a script for collecting real estate data from the website [kelm-immobilien.de](https://kelm-immobilien.de). The collected data is stored in a JSON file.
